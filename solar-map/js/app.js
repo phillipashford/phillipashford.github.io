@@ -324,7 +324,7 @@
         dataLayer.eachLayer(function (layer) {
 
             // This feature is broken and I'm at a loss as to how to fix it. I know the answer must lie in the D3 logic inside sparkLine() but I don't see it.
-            sparkLine(layer, sparkOptions, currentYear);
+            // sparkLine(layer, sparkOptions, currentYear);
 
             const solarProp = layer.feature.properties.solarPercentage;
 
