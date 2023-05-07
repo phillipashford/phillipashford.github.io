@@ -1,0 +1,10 @@
+/* I'm really happy with the MDB starter theme in combo with the Bootswatch theme. Surprisingly, the two rules below are all the adjustments I needed to make to marry the two styles. I understand the need to know how to build from scratch, but I'm really glad folks have shared tools like these so that I don't have to reinvent the wheel. */
+
+.text-white h1, .text-white h5 {
+    color: #fff !important;
+}
+
+.bg-image {
+    padding-left: 0px;
+    padding-right: 0px;
+}
